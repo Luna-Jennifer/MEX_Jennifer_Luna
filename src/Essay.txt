@@ -1,0 +1,22 @@
+WHAT IS THE DIFFERENCE BETWEEN STATE AND PROPS?
+    In react there are two types of components; there are stateless components which will not include state (do not need
+    to access the state) and then, there are components that need to access the state. Stateless components are kind of like 'dumb components' 
+    they really have one purpose, one input and output, and nothing should ever change in that component whereas State 
+    components are components that contain state.There will be constant change and iterations over the component everytime 
+    something changes within the state and what by that means is every component that has a state in react has its own state. 
+    State is local to the component, though it can be passed  downwards through other components to something  called props.
+    Example if we think about a to-do list whether it's an input form and you can fill out your name and there's a bunch
+    of names down below. Everytime a user input  their names the state changes, something is added that is different
+    to  the list. There will be different names and each one of those are a different instance of the state in the component.
+    Basically to know when  to use a state think of it everytime anything that is changed or modified in your application
+    think to use state. State can be passed to other components as mentioned through props. Props are how components
+    talk to one another, so for example: state can be  passed to other components through props, we can pass props though
+    react using different attributes and access these attributes in other components using this props, whatever the attribute is.
+    The benefit of it is your state might have to access different state the same state in different places thoughout
+     your application. You should remember the name input app we were talking about say you wanted a user to be able 
+     to put their name in a  list of names and then  down below or on a different page you wanted that  another page or
+    another component to display the current name  of the user saying 'hello' or whatever the name maybe is and to
+    do that you would need  to access the state from component one in component two. The way to do that though props.
+    
+
+
